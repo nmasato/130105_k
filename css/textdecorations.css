@@ -8,12 +8,17 @@
 
 
 
-#contents a {
-	color: #79A000;
+a {
+	color: #004DA6;
 	text-decoration: underline;
 }
-#contents a:hover {
-	color: #79A000;
+a:hover {
+	color: #004DA6;
+	text-decoration: none;
+	border-bottom: none;
+}
+a:visited {
+	color: #0900a6;
 	text-decoration: none;
 	border-bottom: none;
 }

@@ -27,7 +27,7 @@ time, mark, audio, video {
     background:transparent;
 }
 
-body {font:13px/1 "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック",sans-serif;}
+body {font:13px/1 "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",sans-serif;}
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 

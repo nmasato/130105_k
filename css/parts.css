@@ -7,3 +7,13 @@
 ========================================== */
 
 
+ul.list-A {
+	margin: 0 -15px 0 0;
+}
+ul.list-A li,
+p.list-A {
+	float: left;
+	padding: 0 0 0 15px;
+	margin: 0 15px 0 0;
+	background: url(../images/parts/ico_01.png) no-repeat left center;
+}
