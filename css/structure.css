@@ -58,18 +58,19 @@ body {
 /* GLOBALNAVI
 ========================================== */
 #globalnavi {
+	width: 710px;
 	margin: 0 0 30px;
 	clear: both;
 }
 #globalnavi li {
-	height: 35px;
-	width: 160px;
-	line-height: 35px;
+	height: 50px;
+	width: 130px;
+	line-height: 50px;
 	float: left;
 	display: inline;
 }
 #globalnavi li a {
-	height: 35px;
+	height: 50px;
 	display: block;
 	overflow: hidden;
 	text-indent: -9999px;
@@ -77,12 +78,11 @@ body {
 }
 
 /* GLOBAL NAVI a:link */
-#globalnavi #gnavi01 a {background-position: 0px    0px;}
-#globalnavi #gnavi02 a {background-position: 0px -160px;}
-#globalnavi #gnavi03 a {background-position: 0px -320px;}
-#globalnavi #gnavi04 a {background-position: 0px -480px;}
-#globalnavi #gnavi05 a {background-position: 0px -640px;}
-#globalnavi #gnavi06 a {background-position: 0px -700px;}
+#globalnavi #gnavi01 a {background-position:    0px 0px;}
+#globalnavi #gnavi02 a {background-position: -130px 0px;}
+#globalnavi #gnavi03 a {background-position: -260px 0px;}
+#globalnavi #gnavi04 a {background-position: -390px 0px;}
+#globalnavi #gnavi05 a {background-position: -520px 0px;}
 
 
 
