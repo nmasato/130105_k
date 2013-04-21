@@ -1,0 +1,69 @@
+@charset "shift_jis";
+
+/* =======================================
+
+	Develop CSS
+
+========================================== */
+
+
+
+.DEV {
+	margin: 0 !important;
+	padding: 10px !important;
+	background: #382435 !important;
+	color: #FFF !important;
+	font-size: 120% !important;
+	line-height: 1.334 !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+}
+.DEV2 {
+	margin: 0 !important;
+	padding: 5px 10px !important;
+	background: #7D294D !important;
+	color: #FFF !important;
+	font-size: 120% !important;
+	line-height: 1.334 !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+}
+.DEV-notes {
+	margin: 0 20px 20px !important;
+	padding: 10px !important;
+	background: #FFF !important;
+	border: 3px solid #E02F6F;
+	color: #E02F6F !important;
+	font-size: 120% !important;
+	line-height: 1.334 !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+}
+.DEV-table th,
+.DEV-table td {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #FF9999;
+}
+
+
+/* Index */
+body#developIndex #contents h1 {
+	color: #FFF !important;
+}
+body#developIndex #contents ul {
+	padding: 25px 0  10px !important;
+	border-top: solid 1px #2B3845 !important;
+}
+body#developIndex #contents ul li {
+	margin-left: 30px!important;
+	list-style: disc !important;
+	font-size: 130% !important;
+}
+body#developIndex #contents ul li a {
+	color: #FFF !important;
+}
+body#developIndex #contents ul li a:hover {
+	color: #F59300 !important;
+}
+

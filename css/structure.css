@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/* =======================================
+
+	STRUCTURE CSS
+
+========================================== */
+
+
+
+/* LAYOUT
+========================================== */
+body {
+	text-align: center;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#header {}
+#contents {}
+#main {
+	width: 760px;
+	float: right;
+	display: inline;
+}
+#side {
+	width: 180px;
+	float: left;
+	display: inline;
+}
+#footer {
+	clear: both;
+}
+
+
+
+/* HEADER
+========================================== */
+#logo {
+	height: 50px;
+	width: 300px;
+	line-height: 50px;
+}
+#logo a {
+	height: 50px;
+	width: 300px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/common/logo.png) no-repeat;
+}
+#description {}
+
+
+
+/* GLOBALNAVI
+========================================== */
+#globalnavi {
+	margin: 0 0 30px;
+	clear: both;
+}
+#globalnavi li {
+	height: 35px;
+	width: 160px;
+	line-height: 35px;
+	float: left;
+	display: inline;
+}
+#globalnavi li a {
+	height: 35px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/common/globalnavi.png) no-repeat;
+}
+
+/* GLOBAL NAVI a:link */
+#globalnavi #gnavi01 a {background-position: 0px    0px;}
+#globalnavi #gnavi02 a {background-position: 0px -160px;}
+#globalnavi #gnavi03 a {background-position: 0px -320px;}
+#globalnavi #gnavi04 a {background-position: 0px -480px;}
+#globalnavi #gnavi05 a {background-position: 0px -640px;}
+#globalnavi #gnavi06 a {background-position: 0px -700px;}
+
+
+
+/* CRUMBS
+========================================== */
+#crumbs {
+	font-size: 10px;
+	margin: 0 0 30px;
+	clear: both;
+}
+#crumbs ol {
+	text-align: left;
+}
+#crumbs ol li {
+	float: left;
+	display: inline;
+}
+#crumbs .arrow {
+	padding: 0 10px;
+	content: ">";
+}
+#crumbs a {
+	text-decoration: none;
+}
+
+
+
+/* MAIN
+========================================== */
+#main section {
+	margin: 0 0 20px;
+}
+
+
+
+/* SIDE
+========================================== */
+#side section {
+	margin: 0 0 20px;
+}
+
+
+/* LOCALNAVI
+------------------------------------------ */
+#localnavi {}
+#localnavi li {
+	padding: 0 0 0 20px;
+}
+
+
+/* BANNER
+------------------------------------------ */
+#side #banner {}
+#side #banner ul li {
+	margin: 0 0 10px;
+}
+
+
+
+/* FOOTER
+========================================== */
+#footer {}
+#footerContents {
+	margin: 0 -20px 0 0;
+}
+#footerContents .block {
+	width: 225px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+/* FOOTER NAVIGATION
+------------------------------------------ */
+#footerNavi {
+	width: 395px;
+	height: 20px;
+	float: left;
+}
+#footerNavi li {
+	height: 20px;
+	float: left;
+}
+#footerNavi li a {
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/common/footer_info.png) no-repeat;
+}
+#footerNavi #fnavi01   {width: 105px;}
+#footerNavi #fnavi02   {width: 160px;}
+#footerNavi #fnavi03   {width: 130px;}
+#footerNavi #fnavi01 a {background-position:    0px 0px;}
+#footerNavi #fnavi02 a {background-position: -105px 0px;}
+#footerNavi #fnavi03 a {background-position: -265px 0px;}
+
+
+/* COPYRIGHT
+------------------------------------------ */
+#copyright {
+	width: 220px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+}
+#copyright a {
+	width: 220px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/common/copyright.png) no-repeat;
+}
+
