@@ -11,12 +11,82 @@
 /* DIVIDE
 ========================================== */
 
+/* 2col
+------------------------------------------ */
+.div700-2col {
+	clear: both;
+	margin: 0 -20px 0 0;
+	zoom: 1;
+}
+.div700-2col:after {content: ""; display: block; clear: both;}
+.div700-2col .block {
+	width: 340px;
+	margin: 0 20px 0 0;
+	float: left;
+}
+.div700-2col .borderBlock {
+	width: 320px;
+	padding: 10px;
+	margin: 0 18px 0 0;
+	float: left;
+	border: 1px solid #DDD;
+}
+
+/* 3col
+------------------------------------------ */
+.div700-3col {
+	clear: both;
+	margin: 0 -20px 0 0;
+	zoom: 1;
+}
+.div700-3col:after {content: ""; display: block; clear: both;}
+.div700-3col .block {
+	width: 220px;
+	margin: 0 20px 0 0;
+	float: left;
+}
 
 
 
 /* HEADING
 ========================================== */
+.heading-A {
+	min-height: 51px;
+	padding: 2px 0 0;
+	margin: 0 0 20px;
+	background: url(../images/parts/heading_a.png) no-repeat;
+	position: relative;
+}
+.heading-A h2 {
+	font-size: 16px;
+	padding: 13px;
+	margin: 0 2px;
+	border-top: 2px solid #004492;
+}
+.heading-A h2,
+.heading-A h3 {
+	font-size: 16px;
+	padding: 13px;
+	margin: 0 2px;
+	border-top: 2px solid #004492;
+}
 
+
+.heading-A .moreLink {
+	font-weight: bold;
+	padding: 0 0 0 15px;
+	background: url(../images/parts/ico_01.png) no-repeat left center;
+	position: absolute;
+	right: 10px;
+	top: 13px;
+}
+.div700-2col .borderBlock .heading-A {
+	min-height: 51px;
+	padding: 2px 0 0;
+	margin: -10px -10px 0px;
+	background: url(../images/parts/heading_a_border.png) repeat-x;
+	position: relative;
+}
 
 
 
@@ -32,4 +102,28 @@ p.list-A {
 	padding: 0 0 0 15px;
 	margin: 0 15px 0 0;
 	background: url(../images/parts/ico_01.png) no-repeat left center;
+}
+
+
+.dateList {}
+.dateList dl {}
+.dateList dl dt,
+.dateList dl dd {
+	padding: 10px 0;
+	background: url(../images/parts/line_dot.png) repeat-x;
+}
+.dateList dl dt {
+	width: 8em;
+	float: left;
+	clear: both;
+}
+.dateList dl dd {
+	position: relative;
+	text-indent: -15px;
+	margin: 0 0 0 8em;
+	zoom: 1;
+}
+.dateList dl dd a {
+	padding-left: 15px;
+	background: url(../images/parts/ico_01.png) no-repeat left 0.5em;
 }

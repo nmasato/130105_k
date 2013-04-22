@@ -22,8 +22,12 @@ a:visited {
 	text-decoration: none;
 	border-bottom: none;
 }
+#contents p,
+#contents dl,
+#contents ul {
+	line-height: 1.6;
+}
 #contents p {
-	line-height: 1.8;
 	margin: 0 0 15px;
 }
 #contents strong {font-weight: bold;}

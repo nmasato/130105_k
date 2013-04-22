@@ -6,15 +6,28 @@
 <title>[__title__]</title>
 <meta name="description" content="[__description__]">
 <meta name="keywords" content="[__keywords__]">
-<script src="../js/import.js" type="text/javascript"></script>
+<style>
+.div730-4col {width:730px;clear: both;padding: 10px 0;}
+.div730-4col {line-height: 18px; font-size:12px;}
+.div730-4col p, .div730-4col h2, .div730-4col h3 {
+margin-bottom: 18px;
+}
+</style>
+<link href= "../css/mosaic.css" type="text/css" rel="stylesheet">
+<!--[if lt IE 9]><script src="../js/html5shiv.js"></script><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="../js/mosaic.1.0.1.min.js" type="text/javascript"></script>
+<script src="../js/jquery.multicol.js" type="text/javascript"></script>
+<script src="../js/jquery.pageswitch.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
 <!--[if IE 6]>
 <script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
 	<script type="text/javascript">
 		DD_belatedPNG.fix('img, .png_bg);
 	</script>
 <![endif]-->
-<link href="../style.css" rel="stylesheet" media="screen,print">
-<link href="_DEVELOP.css" rel="stylesheet" media="screen,print">
+<link href="../style.css" rel="stylesheet">
+<link href="_DEVELOP.css" rel="stylesheet">
 </head>
 <body class="[__categoryname__]">
 <div id="wrapper">
@@ -50,7 +63,66 @@
 		<section id="main">
 <!-- ====== #content start ================================================================================== -->
 
-<div class="DEV">.section > .section-head内用</div>
+
+
+<div class="DEV">DIVIDE</div>
+<!-- ####################################################################################### -->
+
+<div class="DEV2" id="A005">..div700-2col > .block</div>
+
+
+<div class="div700-2col">
+<div class="block">
+<img src="images/dummy.png" alt="" width="340" height="200">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="" width="340" height="200">
+<!-- /.block --></div>
+<!-- /.div700-2col --></div>
+
+
+
+
+
+<div class="DEV2" id="A005">.div700-2col > .borderBlock</div>
+
+
+<div class="div700-2col">
+<div class="borderBlock">
+<img src="images/dummy.png" alt="" width="320" height="200">
+<!-- /.borderBlock --></div>
+<div class="borderBlock">
+<img src="images/dummy.png" alt="" width="320" height="200">
+<!-- /.borderBlock --></div>
+<!-- /.div700-2col --></div>
+
+
+
+
+
+
+<div class="DEV2">.div700-3col</div>
+<div class="DEV-notes">
+700px 3分割
+</div>
+
+<div class="div700-3col">
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="220" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="220" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="220" height="100">
+<!-- /.block --></div>
+<!-- /.div700-3col --></div>
+
+
+
+
+
+<div class="DEV">HEADING</div>
 <!-- ####################################################################################### -->
 
 
@@ -58,34 +130,110 @@
 <!-- ======================================================================================= -->
 
 <div class="DEV-notes">
-h2で使用するタイトル<br />
-ボーダーごと透過png8で書き出ししてください。
+700px
 </div>
 
+<div class="heading-A">
+<h2>あああああああああ</h2>
+<!-- /.heading-A --></div>
 
-			<article class="item">
-				<header class="itemHeader">
-					<h1>タイトルタイトル</h1>
-				<!-- /.itemHeader --></header>
-				<div class="itemBody">
-					<p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-				<!-- /.itemBody --></div>
-			<!-- /.item --></article>
 
-			<article class="item">
-				<header class="itemHeader">
-					<h1>タイトルタイトル</h1>
-				<!-- /.itemHeader --></header>
-				<div class="itemBody">
-					<p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-				<!-- /.itemBody --></div>
-			<!-- /.item --></article>
+
+
+
+<div class="DEV2" id="A005">.div700-2col > .borderBlock > .heading-A</div>
+
+
+<div class="div700-2col">
+<div class="borderBlock">
+<div class="heading-A">
+<h2>あああああああああ</h2>
+<!-- /.heading-A --></div>
+<img src="images/dummy.png" alt="" width="320" height="200">
+<!-- /.borderBlock --></div>
+<div class="borderBlock">
+<div class="heading-A">
+<h2>あああああああああ</h2>
+<!-- /.heading-A --></div>
+<img src="images/dummy.png" alt="" width="320" height="200">
+<!-- /.borderBlock --></div>
+<!-- /.div700-2col --></div>
+
+
+
+
+<div class="DEV2" id="A005">.heading-A > .moreLink</div>
+<!-- ======================================================================================= -->
+
+<div class="DEV-notes">
+.moreLink
+</div>
+
+<div class="heading-A">
+<h2>あああああああああ</h2>
+<p class="moreLink"><a href="">ああああああ</a></p>
+<!-- /.heading-A --></div>
+
+
+
+
+<div class="DEV">LIST</div>
+<!-- ####################################################################################### -->
+
+<div class="dateList">
+<dl>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああ</a></dd>
+	<dt>2013.04.00</dt>
+	<dd><a href="">ああああああああああああああああああああ</a></dd>
+</dl>
+
+<!-- /.dateList --></div>
+
+
+
+
+
+
+
 
 
 <!-- ====== #content end ==================================================================================== -->
 		<!-- /#main --></section>
 
 		<aside id="side">
+
+
+
+<div class="DEV2">.checkBgBlock</div>
+<div class="DEV-notes">
+背景がチェックのブロック
+</div>
+
+<div class="checkBgBlock">
+<div class="checkBgBlockInner">
+<p>あああああああああ</p>
+<!-- /.checkBgBlockInner --></div>
+<!-- /.checkBgBlock --></div>
+
+
+
+			<form action="">
+				<input type="text" value="あああああ" />
+				<input type="password" value="あああああ" />
+			</form>
 			<nav id="localnavi">
 				<h2>カテゴリー</h2>
 				<ul>
@@ -120,6 +268,47 @@ h2で使用するタイトル<br />
 				</ul>
 			<!-- /#banner --></section>
 		<!-- /#side --></aside>
+
+
+
+
+<div class="DEV2">.div980-4col</div>
+<div class="DEV-notes">
+980px 4分割<br />
+.block=width230px;
+</div>
+
+<div class="div980-4col">
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<div class="block">
+<img src="images/dummy.png" alt="dummy" width="230" height="100">
+<!-- /.block --></div>
+<!-- /.div980-4col --></div>
+
+
+
+
+
 	<!-- /#contents --></div>
 
 	<footer id="footer">

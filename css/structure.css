@@ -203,6 +203,59 @@ body {
 #side section {
 	margin: 0 0 20px;
 }
+#side #stock {
+	width: 100%;
+	background-color: #EEEEEE;
+	border: 1px solid #DDD;
+}
+#side #stock ul {
+	margin: 10px;
+}
+#side #stock ul li {
+	margin: 0 0 10px;
+	line-height: 0;
+}
+#side #stock ul li a {
+	display: block;
+	border: 1px solid #BBB;
+}
+#side #stock ul li a:hover {
+	position: relative;
+	top: 1px;
+	left: 1px;
+	margin: -2px 0 0 -2px;
+	border: 2px solid #004DA6;
+}
+#side .heading-A {
+	min-height: 51px;
+	padding: 2px 0 0;
+	margin: 0;
+	background: url(../images/parts/heading_a_border.png) repeat-x;
+	position: relative;
+}
+
+
+#side .bannerGroup {
+	padding: 0 0 5px;
+	margin: 0 0 15px;
+	border-bottom: 1px dotted #DDD;
+}
+#side .bannerGroup ul {}
+#side .bannerGroup ul li {
+	height: 50px;
+	width: 230px;
+	line-height: 50px;
+	margin: 0 0 10px;
+}
+#side .bannerGroup ul li a {
+	font-weight: bold;
+	text-indent: 25px;
+	display: block;
+	background: url(../images/common/side_banner_txt.png) no-repeat 0 0;
+}
+#side .bannerGroup ul li a:hover {
+	background: url(../images/common/side_banner_txt.png) no-repeat 0 -50px;
+}
 
 
 /* LOCALNAVI
