@@ -11,7 +11,7 @@
 .DEV {
 	margin: 0 !important;
 	padding: 10px !important;
-	background: #382435 !important;
+	background: #889514 !important;
 	color: #FFF !important;
 	font-size: 120% !important;
 	line-height: 1.334 !important;
@@ -21,19 +21,20 @@
 .DEV2 {
 	margin: 0 !important;
 	padding: 5px 10px !important;
-	background: #7D294D !important;
+	background: #B1C01E !important;
 	color: #FFF !important;
 	font-size: 120% !important;
 	line-height: 1.334 !important;
 	word-break: break-all !important;
 	word-wrap: break-word !important;
+	clear: both;
 }
 .DEV-notes {
 	margin: 0 20px 20px !important;
-	padding: 10px !important;
+	padding: 10px 15px !important;
 	background: #FFF !important;
-	border: 3px solid #E02F6F;
-	color: #E02F6F !important;
+	border: 3px solid #95A318;
+	color: #95A318 !important;
 	font-size: 120% !important;
 	line-height: 1.334 !important;
 	word-break: break-all !important;
