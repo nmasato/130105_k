@@ -50,5 +50,8 @@
 #related .bannerGroup ul li {
 	width: 220px;
 }
+#related .bannerGroup ul li a {
+	text-decoration: none;
+}
 
 
