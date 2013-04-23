@@ -8,16 +8,16 @@
 
 
 
-#main a {
+a {
 	color: #004DA6;
 	text-decoration: underline;
 }
-#main a:hover {
+a:hover {
 	color: #004DA6;
 	text-decoration: none;
 }
-#main a:visited {
-	color: #0900a6;
+a:visited {
+	color: #004DA6;
 	text-decoration: none;
 }
 #main p,
