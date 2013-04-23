@@ -10,6 +10,10 @@
 
 /* PRODUCTS
 ========================================== */
+#home #contents #main #products .sectionBody {
+	padding: 20px 0 0;
+}
+
 #home #contents #main #products a dl dt,
 #home #contents #main #recommend dl dt {
 	margin: 0 0 5px;

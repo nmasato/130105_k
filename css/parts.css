@@ -103,6 +103,22 @@
 }
 
 
+/* heading-B
+------------------------------------------ */
+.heading-B {
+	padding: 8px 8px 0;
+	height: 25px;
+	background: url(../images/parts/heading_a.png) repeat-x left bottom;
+	border: 1px solid #DDD;
+}
+.heading-B h3 {
+	font-size: 16px;
+	padding-left: 16px;
+	background: url(../images/parts/heading_b.png) no-repeat;
+}
+
+
+
 
 /* LIST
 ========================================== */
