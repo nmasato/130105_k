@@ -42,9 +42,22 @@
 .div700-3col:after {content: ""; display: block; clear: both;}
 .div700-3col .block {
 	width: 220px;
-	margin: 0 20px 0 0;
+	margin: 0 20px 15px 0;
 	float: left;
 }
+
+.ul700-3col ul {
+	clear: both;
+	margin: 0 -20px 0 0;
+	zoom: 1;
+}
+.ul700-3col ul:after {content: ""; display: block; clear: both;}
+.ul700-3col ul li {
+	width: 220px;
+	margin: 0 20px 15px 0;
+	float: left;
+}
+
 
 
 
@@ -77,7 +90,7 @@
 	padding: 0 0 0 15px;
 	background: url(../images/parts/ico_01.png) no-repeat left center;
 	position: absolute;
-	right: 10px;
+	right: 15px;
 	top: 13px;
 }
 .div700-2col .borderBlock .heading-A {
@@ -105,6 +118,32 @@ p.list-A {
 }
 
 
+/* TXT & BANNER
+------------------------------------------ */
+.bannerGroup {
+	padding: 0 0 5px;
+	margin: 0 0 15px;
+}
+.bannerGroup ul {}
+.bannerGroup ul li {
+	height: 50px;
+	line-height: 50px;
+	background: url(../images/parts/banner_bg.png) repeat-x 2px 0;
+}
+.bannerGroup ul li a {
+	height: 46px;
+	font-weight: bold;
+	text-indent: 25px;
+	text-decoration: none;
+	display: block;
+	border: 2px solid #DDD;
+	background: url(../images/parts/ico_01.png) no-repeat 8px center;
+}
+.bannerGroup ul li a:hover {
+	border: 2px solid #004DA6;
+}
+
+
 .dateList {}
 .dateList dl {}
 .dateList dl dt,
@@ -126,4 +165,21 @@ p.list-A {
 .dateList dl dd a {
 	padding-left: 15px;
 	background: url(../images/parts/ico_01.png) no-repeat left 0.5em;
+}
+
+
+
+/* IMAGE
+========================================== */
+.borderImg a {
+	display: block;
+	border: 1px solid #BBB;
+	text-decoration: none;
+}
+.borderImg a:hover {
+	position: relative;
+	top: 1px;
+	left: 1px;
+	margin: -2px 0 0 -2px;
+	border: 2px solid #004DA6;
 }

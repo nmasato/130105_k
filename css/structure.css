@@ -35,7 +35,11 @@ body {
 * html body    {overflow-y: auto; height: 100%;}
 * html #header {position: relative; zoom: 1;}
 *:first-child+html #header {position: relative; zoom: 1;}
-#contents {}
+#contents {
+	margin: 0 0 50px;
+	zoom: 1;
+}
+#contents:after {content: ""; display: block; clear: both;}
 #main {
 	width: 700px;
 	float: left;
@@ -216,15 +220,7 @@ body {
 	line-height: 0;
 }
 #side #stock ul li a {
-	display: block;
-	border: 1px solid #BBB;
-}
-#side #stock ul li a:hover {
-	position: relative;
-	top: 1px;
-	left: 1px;
-	margin: -2px 0 0 -2px;
-	border: 2px solid #004DA6;
+	text-decoration: none;
 }
 #side .heading-A {
 	min-height: 51px;
@@ -233,29 +229,14 @@ body {
 	background: url(../images/parts/heading_a_border.png) repeat-x;
 	position: relative;
 }
-
-
 #side .bannerGroup {
-	padding: 0 0 5px;
-	margin: 0 0 15px;
 	border-bottom: 1px dotted #DDD;
 }
-#side .bannerGroup ul {}
 #side .bannerGroup ul li {
-	height: 50px;
-	width: 230px;
-	line-height: 50px;
 	margin: 0 0 10px;
+	width: 230px;
 }
-#side .bannerGroup ul li a {
-	font-weight: bold;
-	text-indent: 25px;
-	display: block;
-	background: url(../images/common/side_banner_txt.png) no-repeat 0 0;
-}
-#side .bannerGroup ul li a:hover {
-	background: url(../images/common/side_banner_txt.png) no-repeat 0 -50px;
-}
+
 
 
 /* LOCALNAVI

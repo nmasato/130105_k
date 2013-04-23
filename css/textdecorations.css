@@ -8,30 +8,28 @@
 
 
 
-a {
+#main a {
 	color: #004DA6;
 	text-decoration: underline;
 }
-a:hover {
+#main a:hover {
 	color: #004DA6;
 	text-decoration: none;
-	border-bottom: none;
 }
-a:visited {
+#main a:visited {
 	color: #0900a6;
 	text-decoration: none;
-	border-bottom: none;
 }
-#contents p,
-#contents dl,
-#contents ul {
+#main p,
+#main dl,
+#main ul {
 	line-height: 1.6;
 }
-#contents p {
+#main p {
 	margin: 0 0 15px;
 }
-#contents strong {font-weight: bold;}
-#contents em     {font-style: italic;}
+#main strong {font-weight: bold;}
+#main em     {font-style: italic;}
 
 
 

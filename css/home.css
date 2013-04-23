@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* =======================================
+
+	HOME CSS
+
+========================================== */
+
+
+
+/* PRODUCTS
+========================================== */
+#home #contents #main #products a dl dt,
+#home #contents #main #recommend dl dt {
+	margin: 0 0 5px;
+}
+#home #contents #main #products a dl dt,
+#home #contents #main #recommend dl dt a {
+	display: block;
+	border: 1px solid #BBB;
+	text-decoration: none;
+}
+#home #contents #main #products a:hover dl dt,
+#home #contents #main #recommend dl dt a:hover {
+	position: relative;
+	top: 1px;
+	left: 1px;
+	margin: -2px 0 5px -2px;
+	border: 2px solid #004DA6;
+}
+#home #contents #main #products a dl dd,
+#home #contents #main #recommend dl dd {
+	margin: 0 0 5px;
+}
+#home #contents #main #products a dl dd,
+#home #contents #main #recommend dl dd a {
+	padding-left: 15px;
+	background: url(../images/parts/ico_01.png) no-repeat left 0.5em;
+}
+
+
+#home #contents #main #products a dl dt  {height: 58px;}
+#home #contents #main #recommend dl dt a {height: 120px;}
+
+#reccomend {}
+#reccomend dl {}
+#reccomend {}
+#reccomend {}
+
+#related .bannerGroup ul li {
+	width: 220px;
+}
+
+
