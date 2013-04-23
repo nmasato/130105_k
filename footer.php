@@ -15,11 +15,6 @@
 <p id="copyright">Copyright &copy; Kanetsu All Rights Reserved.</p>
 <!-- /#footer --></footer>
 <!-- /#wrapper --></div>
-</body>
-</html>
 <?php wp_footer();?>
-
-
-
 </body>
 </html>

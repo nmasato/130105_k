@@ -6,7 +6,7 @@
 <h2>取扱商品</h2>
 <p class="moreLink"><a href="<?php echo home_url('/'); ?>products/">取扱商品一覧へ</a></p>
 <!-- /.heading-A --></header>
-
+<div class="sectionBody">
 <div class="div700-3col">
 <div class="block"><a href="<?php echo home_url('/'); ?>products/cable/">
 <dl>
@@ -63,6 +63,7 @@
 </dl>
 <!-- /.block --></a></div>
 <!-- /.div700-3col --></div>
+<!-- /.sectionBody --></div>
 <!-- /#products --></section>
 
 
@@ -73,21 +74,25 @@
 <div class="heading-A">
 <h2>鐘通おすすめ商品・注目商品</h2>
 <!-- /.heading-A --></div>
+<div class="sectionBody">
 <dl>
 <dt><a href="<?php echo home_url('/'); ?>recommend/"><img src="<?php bloginfo('template_url'); ?>/images/home/recommend_img.png" alt="鐘通おすすめ商品・注目商品" width="318" height="120"></a></dt>
 <dd><a href="<?php echo home_url('/'); ?>recommend/">鐘通おすすめ商品・注目商品</a></dd>
 <dd class="list-A">経験豊かな設計専門メーカによるアートワーク設計で、実装時のコスト、品質を考慮した設計を致します。</dd>
 </dl>
+<!-- /.sectionBody --></div>
 <!-- /.borderBlock --></div>
 <div class="borderBlock">
 <div class="heading-A">
 <h2>お問い合わせ</h2>
 <!-- /.heading-A --></div>
+<div class="sectionBody">
 <dl>
 <dt><a href="<?php echo home_url('/'); ?>inquiry/"><img src="<?php bloginfo('template_url'); ?>/images/home/inquiry_img.png" alt="お問い合わせ" width="318" height="120"></a></dt>
 <dd class="list-A"><a href="<?php echo home_url('/'); ?>inquiry/">お問い合わせ</a></dd>
 <dd>弊社へのお問い合わせはこちらから</dd>
 </dl>
+<!-- /.sectionBody --></div>
 <!-- /.borderBlock --></div>
 <!-- /.div700-2col --></div>
 <!-- /#recommend --></section>
@@ -99,8 +104,11 @@
 <h2>Kanetsu News</h2>
 <p class="moreLink"><a href="<?php echo home_url('/'); ?>news/">Kanetsu News一覧へ</a></p>
 <!-- /.heading-A --></div>
+<div class="sectionBody">
 <div class="dateList">
 <dl>
+<dt>2000.11.11</dt>
+<dd><a href="<?php bloginfo('template_url'); ?>/solarlock_pv4_connectors.pdf" rel="bookmark">TE Connectivity 新商品「Solarlock PV4 Connectors」</a></dd>
 <?php query_posts('showposts=10&category_name=news'); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <dt><?php the_time("Y.m.d"); ?></dt>
@@ -109,6 +117,7 @@
 <?php wp_reset_query(); ?>
 </dl>
 <!-- /.dateList --></div>
+<!-- /.sectionBody --></div>
 <!-- /#news --></section>
 
 
@@ -118,7 +127,7 @@
 <h2>関連情報</h2>
 <p class="moreLink"><a href="<?php echo home_url('/'); ?>links">リンク集</a></p>
 <!-- /.heading-A --></div>
-
+<div class="sectionBody">
 <div class="bannerGroup ul700-3col">
 <ul>
 <li><a href="<?php echo home_url('/'); ?>http://www.tocom.or.jp/jp/souba/crude_oil/" target="_blank">原油相場</a></li>
@@ -129,7 +138,7 @@
 <li><a href="<?php echo home_url('/'); ?>http://www.benet.ne.jp/arai/souba/dousouba.htm" target="_blank">銅相場</a></li>
 </ul>
 <!-- /.bannerGroup --></div>
-
+<!-- /.sectionBody --></div>
 <!-- /#related --></section>
 
 

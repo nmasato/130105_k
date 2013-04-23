@@ -23,7 +23,7 @@
 <script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <script type="text/javascript">
-DD_belatedPNG.fix('img, .png_bg);
+DD_belatedPNG.fix('img, .png_bg');
 </script>
 <!--[endif]-->
 <link href="<?php bloginfo('stylesheet_url' ); ?>" rel="stylesheet">
@@ -55,7 +55,6 @@ if(is_array($cats)) {
 <!-- /#language --></aside>
 <header id="header">
 <h1 id="logo"><a href="<?php echo home_url('/'); ?>/">[__siteName__]</a></h1>
-<h2 id="description">[__siteDescription__]</h2>
 <!-- /#header --></header>
 
 <nav id="headerNavi">

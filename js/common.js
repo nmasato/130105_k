@@ -50,22 +50,16 @@ $(function(){
 //
 //==========================================
 $(function(){
-	$('#recommend .block').flatHeights();
+	$('#recommend .borderBlock').flatHeights();
 });
 
 
 
 //==========================================
 //
-//	Div All Link
+//	add Icon
 //
 //==========================================
-$(function(){
-	$(".indexBox,#pageIndex").click(function(){
-		window.location=$(this).find("a").attr("href");
-		return false;
-	});
-});
 
 
 
