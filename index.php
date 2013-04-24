@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-
+<section id="main">
 <section id="products">
 <header class="heading-A">
 <h2>取扱商品</h2>
