@@ -8,7 +8,7 @@
 
 if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size(88, 88, true);						// Default
+	set_post_thumbnail_size(88, 88);						// Default
 	add_image_size('category-thumb', 340, 9999, true);				// INDEX
 	add_image_size('about-thumb', 260, 265);					// ABOUT (Profile Thumbnail)
 	add_image_size('gallery-thumb', 170, 160, true);		// ABOUT (Gallery Thumbnail)

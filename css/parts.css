@@ -6,12 +6,74 @@
 
 ========================================== */
 
-.page .block {
-	min-width: 340px;
+.archive .sectionBody .block {
+	width: 90px;
+	max-width: 700px;
+	margin: 0 20px 0 0;
 	float: left;
 }
-.page .block:nth-child(even) {
+.archive .sectionBody .block a {
+	width: auto;
+	height: 88px;
+}
+.page .block {
+	width: auto;
+	min-width: 340px;
+	max-width: 700px;
+	float: left;
+}
+.page .block-340px:nth-child(even) {
 	margin: 0 20px 0 0;
+}
+.page .block-340px {
+	width: 340px;
+	float: left;
+}
+.page .block-700px {
+	width: 700px;
+	clear: both;
+}
+.page .block h4 {
+	font-size: 14px;
+	padding: 4px 0 10px 16px;
+	margin: 0 0 10px;
+	background: url(../images/parts/heading_b.png) no-repeat left top;
+	border-bottom: 1px dotted #DDD;
+}
+
+
+.contentNavi {
+	background-color: #EEEEEE;
+	padding: 17px 17px 14px;
+	margin: 0 0 20px;
+	line-height: 0;
+	position: relative;
+}
+.contentNavi ul {
+	zoom: 1;
+}
+.contentNavi ul:after {content: ""; display: block; clear: both;}
+.contentNavi ul li {
+	float: left;
+	margin: 0 20px 3px 0;
+}
+.contentNavi ul li a {
+	padding: 0 0 0 15px;
+	background: url(../images/parts/ico_01.png) no-repeat left center;
+}
+.contentNavi .naviContact {
+	padding: 17px;
+	display: block;
+	background-color: #004EA7;
+	position: absolute;
+	right: 0;
+	top: 0;
+	zoom: 1;
+}
+.contentNavi .naviContact:after {content: ""; display: block; clear: both;}
+.contentNavi .naviContact a {
+	display: block;
+	color: #fff;
 }
 
 
@@ -183,7 +245,11 @@ p.list-A {
 	margin: 0 15px 0 0;
 	background: url(../images/parts/ico_01.png) no-repeat left center;
 }
-
+a.list-A {
+	padding: 0 0 0 15px;
+	background: url(../images/parts/ico_01.png) no-repeat left center;
+	word-wrap: break-word;
+}
 
 /* TXT & BANNER
 ------------------------------------------ */

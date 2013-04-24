@@ -41,6 +41,7 @@ if(is_array($cats)) {
 </head>
 <?php if (is_home()) { ?><body id="home" class="index">
 <?php } elseif (is_category()) { ?><body class="<?php echo $ancCateSlug; ?> page">
+<?php } elseif (is_archive()) { ?><body class="archive">
 <?php } elseif (is_page()) { ?><body id="<?php echo $post->post_name; ?>" class="page">
 <?php } elseif (is_single()) {?><body id="<?php echo $ancCateSlug; ?>" class="page">
 <?php } else { ?>
@@ -49,7 +50,7 @@ if(is_array($cats)) {
 <div id="wrapper">
 <aside id="language">
 <ul>
-<li><a href="<?php echo home_url('/'); ?><?php echo home_url('/'); ?>en/"><img src="<?php bloginfo('template_url'); ?>/images/common/lan_ico01.png" alt="" width="16" height="11">English</a></li>
+<li><a href="<?php echo home_url('/'); ?>en/"><img src="<?php bloginfo('template_url'); ?>/images/common/lan_ico01.png" alt="" width="16" height="11">English</a></li>
 <li><a href="<?php echo home_url('/'); ?>cn/"><img src="<?php bloginfo('template_url'); ?>/images/common/lan_ico02.png" alt="" width="16" height="11">中文</a></li>
 </ul>
 <!-- /#language --></aside>
@@ -86,5 +87,4 @@ if(is_array($cats)) {
 <!-- /#navArea --></div>
 
 <div id="contents">
-<section id="main">
 
