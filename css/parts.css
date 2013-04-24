@@ -6,6 +6,14 @@
 
 ========================================== */
 
+.modal{display:none;}
+.modalBody{position: fixed; z-index:999999; background: #FFF; width:690px; left:50%; top:50%; height: 400px}
+.modalBK{position: fixed; left:0; top: 0;z-index:99999; height:100%; width:100%;background:#000; opacity: 0.9;filter: alpha(opacity=90);-moz-opacity:0.90;}
+
+
+.page #navArea {
+	margin: -4px 0 20px;
+}
 .archive .sectionBody .block {
 	width: 90px;
 	max-width: 700px;

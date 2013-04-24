@@ -2,9 +2,12 @@
 
 <?php the_post(); ?>
 
+<?php //print_r($post); ?>
+<?php $aaa = wp_get_post_terms($post->ID,'produtslist'); //print_r($aaa[0]->parent) ?>
+<?php $bbb = get_term($aaa[0]->parent,'produtslist'); //print_r($bbb->name); ?>
+<?php $tag = get_the_tags($post->ID); //print_r($tag); ?>
 <div class="pageTitle">
-<h1>
-</h1>
+<h1><?php echo $bbb->name ?></h1>
 <!-- /.pageTitle --></div>
 
 
