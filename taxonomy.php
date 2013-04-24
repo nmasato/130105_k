@@ -2,20 +2,25 @@
 
 <?php breadcrumb(); ?>
 
-<section id="main">
 
-
+<?php //print_r($post); ?>
+<?php $aaa = wp_get_post_terms($post->ID,'produtslist'); //print_r($aaa[0]->parent) ?>
+<?php $bbb = get_term($aaa[0]->parent,'produtslist'); //print_r($bbb->name); ?>
+<?php $tag = get_the_tags($post->ID); //print_r($tag); ?>
 <div class="pageTitle">
-<h1><?php $cat_info = get_category( $cat ); ?><?php echo esc_html( $cat_info->name ); ?></h1>
+<h1><?php echo $bbb->name ?></h1>
 <!-- /.pageTitle --></div>
 
 
+<section id="main">
 <div class="heading-A">
-<h2><?php $cat_info = get_category( $cat ); ?><?php echo esc_html( $cat_info->name ); ?></h2>
+<h2><?php $cat_info = get_category( $cat ); ?><?php echo $aaa[0]->name ?></h2>
 <!-- /.heading-A --></div>
 <div class="sectionBody">
 
-
+<?php foreach($tag as $key => $val) : ?>
+<?php echo $val->name ?>
+<?php endforeach; ?>
 <?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post();
     /* ループ開始 */?>

@@ -102,7 +102,18 @@ function breadcrumb(){
 	echo $str;
 }
 
-
+//デバッグ関数
+if ( ! function_exists('d'))
+{
+    function d() {
+        echo '<pre style="text-align:left;background:#fff;color:#333;border:1px solid #ccc;margin:2px;padding:4px;font-family:monospace;font-size:12px">';
+        foreach (func_get_args() as $val)
+        {
+            print_r($val);
+        }
+        echo '</pre>';
+    }
+}
 
 
 

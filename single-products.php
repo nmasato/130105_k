@@ -1,30 +1,9 @@
 <?php get_header() ?>
 
+<?php the_post(); ?>
 
 <div class="pageTitle">
 <h1>
-<?php
-// 入力：子タームID
-// 返却値：最上位のタームオブジェクト
-function get_root_term_obj($term_id) {
-    $term_obj = get_term($term_id);
-    $parent = $term_obj->parent;
-    if ($parent != 0) {
-        return get_root_term_obj($parent);
-    } else {
-        return $term_obj;
-    }
-}
-?>
-
-■ Template
-<?php
-$term_id = 10;
-$root_term_obj = get_root_term_obj($term_id);
-echo $root_term_obj->term_id;            // タームID
-echo esc_html($root_term_obj->name);     // ターム名
-echo esc_html($root_term_obj->slug);     // タームスラッグ
-?>
 </h1>
 <!-- /.pageTitle --></div>
 
